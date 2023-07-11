@@ -31,7 +31,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: var(--text-primary-light);
   background-color: var(--background-dark);
-  background: url("../img/ash-edmonds-0aWZdK8nK2I-unsplash.jpg") top center;
+  background: url("../img/hero-bg.jpg") top center;
   background-attachment: fixed;
   background-size: cover;
 }
