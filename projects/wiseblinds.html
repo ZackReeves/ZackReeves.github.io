@@ -62,11 +62,20 @@
           <div class="col-lg-6 portfolio-info">
             <h3>Project information</h3>
             <p style="margin-bottom: 0.2rem !important;">
-              WiseBlinds.
+              Wise Blinds is an IoT powered smart curtain device intended to improve sleep quality and environment control. It contains a range of sensors which are controlled by raspberry pis measuring:
             </p>
             <ul>
-              <li>wiseblinds</li>
+              <li>Temperature</li>
+              <li>Humidity</li>
+              <li>Light</li>
+              <li>Clap detection.</li>
             </ul>
+            <p>
+              The Light sensor is used to control the opening and closing of the curtains in the morning and evenings, whilst the temperature and humidity sensors control the curtain through the day in the case of extreme weather, where closing the curtains to keep heat in or out is beneficial. This data is stored in a secure database (hosted on firebase for prototyping), where it can be accessed by the motor controller. The curtains are controlled by a motor connected to a raspberry pi.
+            </p>
+            <p>
+              It is all controlled via mobile app which allows the user to choose between automatic and mannual modes as well as turning on and off clap detection.
+            </p>
 
             <div class="social-links" style="padding-left: 1rem;"> <!--Add padding to match bullet points-->
               <a href="https://github.com/ZackReeves/wiseblinds" class="github" target="_blank"><i class="bx bxl-github"></i></a>
